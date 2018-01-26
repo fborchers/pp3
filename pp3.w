@@ -330,7 +330,7 @@ actually drawn.  So memory usage could be reduced drastically.
 
 @c
 #include <iostream>
-#include <string>
+#include <cstring>
 #include <fstream>
 #include <sstream>
 #include <vector>
