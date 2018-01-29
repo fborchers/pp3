@@ -368,7 +368,7 @@ void ephemerides::transform_helio_to_geo_ecliptical(
 
 @c
 void ephemerides::equinox_2000(const double jd_0, double& lambda, double& beta,
-                               const double jd = 2451544.5334) const {
+                               const double jd) const {
     const double T_0 = (jd_0 - 2451545.0) / 36525;
     const double T = (jd - jd_0) / 36525;
     const double Pi_A = (3.05216867315 + 1.59478490774e-2 * T_0
