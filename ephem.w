@@ -4,6 +4,8 @@
 #include <string>
 #include <cmath>
 
+using namespace std;
+
 #ifndef NAN
 #define NAN 0.0
 #endif
