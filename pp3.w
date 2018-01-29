@@ -110,16 +110,16 @@
 \mainfont\baselineskip12.7pt
 
 %% Now for the title page
-
-\font\sf=bfrr8t \font\sfbf=bfrb8t
-\font\sfa=bfrr8t scaled 700
-
-\font\stitlefont=phvr7t scaled\magstep3    % sans serif type in title
-\font\sbtitlefont=phvb7t scaled\magstep3   % sans bold type in title
-\font\ttitlefont=pcrb7t scaled\magstep3    % typewriter type in title
-
-\font\stitlefont=bfrr8t scaled\magstep3    % sans serif type in title
-\font\sbtitlefont=bfrb8t scaled\magstep3   % sans serif type in title
+%
+%\font\sf=bfrr8t \font\sfbf=bfrb8t
+%\font\sfa=bfrr8t scaled 700
+%
+%\font\stitlefont=phvr7t scaled\magstep3    % sans serif type in title
+%\font\sbtitlefont=phvb7t scaled\magstep3   % sans bold type in title
+%\font\ttitlefont=pcrb7t scaled\magstep3    % typewriter type in title
+%
+%\font\stitlefont=bfrr8t scaled\magstep3    % sans serif type in title
+%\font\sbtitlefont=bfrb8t scaled\magstep3   % sans serif type in title
 %\font\sbtitlefont=0t3x8r scaled\magstep3   % sans bold type in title
 %\font\sf=0t3r8r \font\sfbf=0t3b8r
 %\font\sfa=0t3r8r scaled 700
