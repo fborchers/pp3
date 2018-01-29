@@ -422,9 +422,9 @@ void ephemerides::transform_ecliptical_to_equatorial(
 @c
 double ephemerides::magnitude(const int planet,
                  const double r, const double R, const double Delta,
-                 const double jd = 0.0,
-                 const double alpha = 0.0,
-                 const double delta = 0.0) const {
+                 const double jd,
+                 const double alpha,
+                 const double delta) const {
     const double m0_coefficients[9][4] = { @/
         { -0.42,   3.8,   -2.73,   2.00 }, @/
         { -4.40,   0.09,   2.39,  -0.65 }, @/
